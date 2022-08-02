@@ -1,0 +1,21 @@
+.navbar-lewagon {
+  justify-content: space-between;
+  background: white;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 34px;
+  margin-bottom: -29px;
+  transition: all 1s;
+  &:hover {
+    transform: rotate(85deg);
+  }
+}
+
+.container-navbar {
+  margin:auto;
+}
