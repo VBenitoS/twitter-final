@@ -3,16 +3,19 @@
   width: 70%;
   margin-top: 120px;
   h2 {
-    margin-bottom: 20px;
+    margin-bottom: 36px;
     font-weight: bold;
     margin-top: -10px;
   }
   .btn {
-
+    margin-top: 20px;
     margin-bottom: 20px;
     background-color: #1d9bf0 !important;
     color: white;
     border: white;
+    border-radius: 37px;
+    height: 61px;
+    font-weight: bold;
   }
   .container {
     margin-top: -83px;
@@ -26,6 +29,9 @@ input {
   &:hover {
     color: #1371af;
   }
+}
+.form-control {
+  margin-bottom: 19px;
 }
 .form_control:focus {
 	outline: none;
