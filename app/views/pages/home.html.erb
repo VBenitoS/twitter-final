@@ -1,2 +1,16 @@
-   <%= render "shared/navbar" %>
-<h1>TwitterFinal<h1>
+<%= render "shared/navbar" %>
+<div class="home-container">
+  <div class="title-container">
+    <h1>Happening now<h1>
+    <h2>Join Twitter today.</h2>
+  </div>
+  <% if user_signed_in? == false %>
+  <div class="login">
+    <%= link_to "Login", "/users/sign_in" %>
+  </div>
+  <div class="sign-up">
+    <%= link_to "Sign up", "/users/sign_up" %>
+  </div>
+  <% end %>
+  <img class="bottom-img" src="https://cdn.cms-twdigitalassets.com/content/dam/help-twitter/logos/htc-summary-card.jpg.twimg.768.jpg" alt="">
+</div>

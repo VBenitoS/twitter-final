@@ -1,0 +1,47 @@
+.home-container {
+  margin: auto;
+  width: 75%;
+  margin-top: 50px;
+  h1, h2 {
+
+    font-family: 'Archivo Black', sans-serif;
+  }
+}
+.title-container {
+  h1 {
+    font-size: 38px;
+    margin-bottom: 29px;
+  }
+  h2 {
+    margin-bottom: 63px;
+  }
+}
+
+.login, .sign-up {
+  margin-top: 55px;
+  a {
+    background-color: #1d9bf0 !important;
+    color: white;
+    /* border: white; */
+    border-radius: 37px;
+    /* height: 61px; */
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 112px;
+    padding-right: 112px;
+    // box-shadow: 3px 3px 5px #bfbfbf;
+  }
+}
+.login {
+  a {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+}
+.bottom-img {
+  width: 388px;
+    margin-top: 50px;
+    margin-left: -54px;
+}
