@@ -17,7 +17,7 @@
   }
 }
 
-.login, .sign-up {
+.login, .sign-up, .sign-out {
   margin-top: 55px;
   a {
     background-color: #1d9bf0 !important;
@@ -39,6 +39,15 @@
     padding-left: 120px;
     padding-right: 120px;
   }
+}
+.sign-out {
+  margin-bottom: 68px;
+  margin-top: 78px;
+  a {
+    padding-left: 106px;
+  }
+
+
 }
 .bottom-img {
   width: 388px;
